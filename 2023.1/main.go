@@ -50,10 +50,8 @@ func main() {
 			if isNumber(string(char)) {
 				if firstDigit == "0" {
 					firstDigit = string(char)
-					lastDigit = string(char)
-				} else {
-					lastDigit = string(char)
 				}
+				lastDigit = string(char)
 			}
 		}
 
